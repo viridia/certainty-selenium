@@ -1,0 +1,28 @@
+{
+  "name": "certainty-selenium",
+  "version": "0.1.0",
+  "description": "Extends the Certainty assertion framework with assertions for Selenium Webdriver elements.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "assertion",
+    "assert",
+    "certainty",
+    "selenium",
+    "webdriver"
+  ],
+  "author": "Talin <viridia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "certainty": "^0.3.0"
+  },
+  "peerDependencies": {
+    "selenium-webdriver": "^2.x"
+  }
+}
