@@ -1,6 +1,6 @@
 {
   "name": "certainty-selenium",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Extends the Certainty assertion framework with assertions for Selenium Webdriver elements.",
   "main": "index.js",
   "dependencies": {
