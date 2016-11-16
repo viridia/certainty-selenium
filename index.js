@@ -3,6 +3,6 @@ var WebElementSubject = require('./lib/webElementSubject');
 var webdriver = require('selenium-webdriver');
 
 subjectFactory.addType(
-  function (v) { return v instanceof webdriver.WebElement },
+  function (v) { return v instanceof webdriver.WebElement; },
   WebElementSubject
 );

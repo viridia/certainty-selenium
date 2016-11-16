@@ -20,7 +20,7 @@
   "author": "Talin <viridia@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "certainty": "^0.3.0"
+    "certainty": "^1.x"
   },
   "peerDependencies": {
     "selenium-webdriver": "^2.x"
