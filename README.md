@@ -73,7 +73,7 @@ ensure(webElement).text().includes(someText);
 
 ensure(webElement).id().equals(someId);
 ensure(webElement).tagName().equals(tagName);
-ensure(webElement).attribute('foo').equals(value);
+ensure(webElement).attribute(attrName).equals(value);
 ensure(webElement).classes().contains(clsName);
 ```
 
@@ -81,9 +81,14 @@ In addition, there are various shortcut methods that work specifically on
 attributes and classes:
 
 ```javascript
-ensure(webElement).hasAttribute('foo').withValue(value);
+ensure(webElement).hasAttribute(attrName).withValue(value);
 ensure(webElement).hasClass(clsName);
 ensure(webElement).doesNotHaveClass(clsName);
+ensure(webElement).doesNotHaveAttribute(attrName);
+ensure(webElement).isDisabled();
+ensure(webElement).isNotDisabled();
+ensure(webElement).isChecked();
+ensure(webElement).isNotChecked();
 ```
 
 And there are assertion methods that test whether an element is displayed:
